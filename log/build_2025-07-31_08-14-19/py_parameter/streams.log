@@ -1,0 +1,21 @@
+[1.160s] Invoking command in '/home/workspace/mici_ws/src/py_parameter': PYTHONPATH=/home/workspace/mici_ws/build/py_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_parameter build --build-base /home/workspace/mici_ws/build/py_parameter/build install --record /home/workspace/mici_ws/build/py_parameter/install.log --single-version-externally-managed install_data
+[1.392s] running egg_info
+[1.392s] writing ../../build/py_parameter/py_parameter.egg-info/PKG-INFO
+[1.393s] writing dependency_links to ../../build/py_parameter/py_parameter.egg-info/dependency_links.txt
+[1.393s] writing entry points to ../../build/py_parameter/py_parameter.egg-info/entry_points.txt
+[1.393s] writing requirements to ../../build/py_parameter/py_parameter.egg-info/requires.txt
+[1.393s] writing top-level names to ../../build/py_parameter/py_parameter.egg-info/top_level.txt
+[1.395s] reading manifest file '../../build/py_parameter/py_parameter.egg-info/SOURCES.txt'
+[1.396s] writing manifest file '../../build/py_parameter/py_parameter.egg-info/SOURCES.txt'
+[1.396s] running build
+[1.397s] running build_py
+[1.397s] running install
+[1.397s] running install_lib
+[1.399s] running install_data
+[1.399s] running install_egg_info
+[1.402s] removing '/home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages/py_parameter-0.0.0-py3.10.egg-info' (and everything under it)
+[1.402s] Copying ../../build/py_parameter/py_parameter.egg-info to /home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages/py_parameter-0.0.0-py3.10.egg-info
+[1.405s] running install_scripts
+[1.445s] Installing minimal_parameter_node script to /home/workspace/mici_ws/install/py_parameter/lib/py_parameter
+[1.445s] writing list of installed files to '/home/workspace/mici_ws/build/py_parameter/install.log'
+[1.472s] Invoked command in '/home/workspace/mici_ws/src/py_parameter' returned '0': PYTHONPATH=/home/workspace/mici_ws/build/py_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_parameter build --build-base /home/workspace/mici_ws/build/py_parameter/build install --record /home/workspace/mici_ws/build/py_parameter/install.log --single-version-externally-managed install_data

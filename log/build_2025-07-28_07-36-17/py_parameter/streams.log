@@ -1,0 +1,36 @@
+[0.990s] Invoking command in '/home/workspace/mici_ws/src/py_parameter': PYTHONPATH=/home/workspace/mici_ws/build/py_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_parameter build --build-base /home/workspace/mici_ws/build/py_parameter/build install --record /home/workspace/mici_ws/build/py_parameter/install.log --single-version-externally-managed install_data
+[1.200s] running egg_info
+[1.200s] creating ../../build/py_parameter/py_parameter.egg-info
+[1.200s] writing ../../build/py_parameter/py_parameter.egg-info/PKG-INFO
+[1.200s] writing dependency_links to ../../build/py_parameter/py_parameter.egg-info/dependency_links.txt
+[1.200s] writing entry points to ../../build/py_parameter/py_parameter.egg-info/entry_points.txt
+[1.201s] writing requirements to ../../build/py_parameter/py_parameter.egg-info/requires.txt
+[1.201s] writing top-level names to ../../build/py_parameter/py_parameter.egg-info/top_level.txt
+[1.201s] writing manifest file '../../build/py_parameter/py_parameter.egg-info/SOURCES.txt'
+[1.202s] reading manifest file '../../build/py_parameter/py_parameter.egg-info/SOURCES.txt'
+[1.202s] writing manifest file '../../build/py_parameter/py_parameter.egg-info/SOURCES.txt'
+[1.202s] running build
+[1.203s] running build_py
+[1.203s] creating /home/workspace/mici_ws/build/py_parameter/build
+[1.203s] creating /home/workspace/mici_ws/build/py_parameter/build/lib
+[1.203s] creating /home/workspace/mici_ws/build/py_parameter/build/lib/py_parameter
+[1.203s] copying py_parameter/__init__.py -> /home/workspace/mici_ws/build/py_parameter/build/lib/py_parameter
+[1.203s] copying py_parameter/param_member.py -> /home/workspace/mici_ws/build/py_parameter/build/lib/py_parameter
+[1.203s] running install
+[1.203s] running install_lib
+[1.203s] creating /home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages/py_parameter
+[1.204s] copying /home/workspace/mici_ws/build/py_parameter/build/lib/py_parameter/__init__.py -> /home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages/py_parameter
+[1.204s] copying /home/workspace/mici_ws/build/py_parameter/build/lib/py_parameter/param_member.py -> /home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages/py_parameter
+[1.204s] byte-compiling /home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages/py_parameter/__init__.py to __init__.cpython-310.pyc
+[1.204s] byte-compiling /home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages/py_parameter/param_member.py to param_member.cpython-310.pyc
+[1.204s] running install_data
+[1.205s] creating /home/workspace/mici_ws/install/py_parameter/share/ament_index
+[1.205s] creating /home/workspace/mici_ws/install/py_parameter/share/ament_index/resource_index
+[1.205s] creating /home/workspace/mici_ws/install/py_parameter/share/ament_index/resource_index/packages
+[1.205s] copying resource/py_parameter -> /home/workspace/mici_ws/install/py_parameter/share/ament_index/resource_index/packages
+[1.205s] copying package.xml -> /home/workspace/mici_ws/install/py_parameter/share/py_parameter
+[1.205s] running install_egg_info
+[1.206s] Copying ../../build/py_parameter/py_parameter.egg-info to /home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages/py_parameter-0.0.0-py3.10.egg-info
+[1.207s] running install_scripts
+[1.223s] writing list of installed files to '/home/workspace/mici_ws/build/py_parameter/install.log'
+[1.245s] Invoked command in '/home/workspace/mici_ws/src/py_parameter' returned '0': PYTHONPATH=/home/workspace/mici_ws/build/py_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_parameter build --build-base /home/workspace/mici_ws/build/py_parameter/build install --record /home/workspace/mici_ws/build/py_parameter/install.log --single-version-externally-managed install_data

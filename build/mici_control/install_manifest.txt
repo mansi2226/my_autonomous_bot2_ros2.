@@ -1,0 +1,16 @@
+/home/workspace/mici_ws/install/mici_control/lib/mici_control/my_node
+/home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/package_run_dependencies/mici_control
+/home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/parent_prefix_path/mici_control
+/home/workspace/mici_ws/install/mici_control/share/mici_control/environment/ament_prefix_path.sh
+/home/workspace/mici_ws/install/mici_control/share/mici_control/environment/ament_prefix_path.dsv
+/home/workspace/mici_ws/install/mici_control/share/mici_control/environment/path.sh
+/home/workspace/mici_ws/install/mici_control/share/mici_control/environment/path.dsv
+/home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.bash
+/home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.sh
+/home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.zsh
+/home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.dsv
+/home/workspace/mici_ws/install/mici_control/share/mici_control/package.dsv
+/home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/packages/mici_control
+/home/workspace/mici_ws/install/mici_control/share/mici_control/cmake/mici_controlConfig.cmake
+/home/workspace/mici_ws/install/mici_control/share/mici_control/cmake/mici_controlConfig-version.cmake
+/home/workspace/mici_ws/install/mici_control/share/mici_control/package.xml

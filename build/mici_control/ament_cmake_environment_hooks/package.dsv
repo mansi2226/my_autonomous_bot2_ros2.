@@ -1,0 +1,4 @@
+source;share/mici_control/local_setup.bash
+source;share/mici_control/local_setup.dsv
+source;share/mici_control/local_setup.sh
+source;share/mici_control/local_setup.zsh

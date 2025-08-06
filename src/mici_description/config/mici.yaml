@@ -1,0 +1,9 @@
+robot_controller:
+  ros__parameters:
+    wheel_radius: 0.033
+    wheel_base: 0.16
+    max_velocity: 0.5
+    pid:
+      p: 0.2
+      i: 0.0
+      d: 0.1

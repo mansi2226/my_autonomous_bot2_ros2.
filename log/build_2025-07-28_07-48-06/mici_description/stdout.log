@@ -1,0 +1,18 @@
+[100%] Built target my_node
+-- Install configuration: ""
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/lib/mici_description/my_node
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/ament_index/resource_index/package_run_dependencies/mici_description
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/ament_index/resource_index/parent_prefix_path/mici_description
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/environment/path.sh
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/environment/path.dsv
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/local_setup.bash
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/local_setup.sh
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/local_setup.zsh
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/local_setup.dsv
+-- Installing: /home/workspace/mici_ws/install/mici_description/share/mici_description/package.dsv
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/ament_index/resource_index/packages/mici_description
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/cmake/mici_descriptionConfig.cmake
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/cmake/mici_descriptionConfig-version.cmake
+-- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/package.xml

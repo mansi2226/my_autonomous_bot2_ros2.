@@ -1,0 +1,42 @@
+[0.020s] Invoking command in '/home/workspace/mici_ws/build/mici_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake /home/workspace/mici_ws/src/mici_control -DCMAKE_INSTALL_PREFIX=/home/workspace/mici_ws/install/mici_control
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.169s] -- The CXX compiler identification is GNU 11.4.0
+[0.178s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.324s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.334s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.497s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.697s] -- Added test 'lint_cmake' to check CMake code style
+[0.697s] -- Added test 'xmllint' to check XML markup files
+[0.699s] -- Configuring done
+[0.700s] -- Generating done
+[0.701s] -- Build files have been written to: /home/workspace/mici_ws/build/mici_control
+[0.705s] Invoked command in '/home/workspace/mici_ws/build/mici_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake /home/workspace/mici_ws/src/mici_control -DCMAKE_INSTALL_PREFIX=/home/workspace/mici_ws/install/mici_control
+[0.707s] Invoking command in '/home/workspace/mici_ws/build/mici_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_control -- -j12 -l12
+[0.741s] Invoked command in '/home/workspace/mici_ws/build/mici_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_control -- -j12 -l12
+[0.743s] Invoking command in '/home/workspace/mici_ws/build/mici_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_control
+[0.751s] -- Install configuration: ""
+[0.752s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/package_run_dependencies/mici_control
+[0.752s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/parent_prefix_path/mici_control
+[0.752s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/environment/ament_prefix_path.sh
+[0.752s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/environment/ament_prefix_path.dsv
+[0.752s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/environment/path.sh
+[0.752s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/environment/path.dsv
+[0.753s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.bash
+[0.753s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.sh
+[0.753s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.zsh
+[0.753s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.dsv
+[0.753s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/package.dsv
+[0.754s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/packages/mici_control
+[0.754s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/cmake/mici_controlConfig.cmake
+[0.754s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/cmake/mici_controlConfig-version.cmake
+[0.754s] -- Installing: /home/workspace/mici_ws/install/mici_control/share/mici_control/package.xml
+[0.770s] Invoked command in '/home/workspace/mici_ws/build/mici_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_control

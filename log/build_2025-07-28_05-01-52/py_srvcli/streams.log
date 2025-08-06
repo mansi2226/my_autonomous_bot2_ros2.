@@ -1,0 +1,25 @@
+[0.686s] Invoking command in '/home/workspace/mici_ws/src/py_srvcli': PYTHONPATH=/home/workspace/mici_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/workspace/mici_ws/build/py_srvcli/build install --record /home/workspace/mici_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.879s] running egg_info
+[0.880s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.880s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.880s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.880s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.882s] running build
+[0.882s] running build_py
+[0.882s] copying py_srvcli/client_member.py -> /home/workspace/mici_ws/build/py_srvcli/build/lib/py_srvcli
+[0.882s] running install
+[0.882s] running install_lib
+[0.883s] copying /home/workspace/mici_ws/build/py_srvcli/build/lib/py_srvcli/client_member.py -> /home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.883s] byte-compiling /home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member.py to client_member.cpython-310.pyc
+[0.884s] running install_data
+[0.884s] running install_egg_info
+[0.885s] removing '/home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[0.885s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.886s] running install_scripts
+[0.902s] Installing clin script to /home/workspace/mici_ws/install/py_srvcli/lib/py_srvcli
+[0.902s] Installing serv script to /home/workspace/mici_ws/install/py_srvcli/lib/py_srvcli
+[0.902s] writing list of installed files to '/home/workspace/mici_ws/build/py_srvcli/install.log'
+[0.923s] Invoked command in '/home/workspace/mici_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/workspace/mici_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/workspace/mici_ws/build/py_srvcli/build install --record /home/workspace/mici_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

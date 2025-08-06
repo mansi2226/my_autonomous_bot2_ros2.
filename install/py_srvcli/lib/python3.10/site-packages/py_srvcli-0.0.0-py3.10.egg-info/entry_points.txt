@@ -1,0 +1,4 @@
+[console_scripts]
+clin = py_srvcli.client_member:main
+serv = py_srvcli.service_member:main
+

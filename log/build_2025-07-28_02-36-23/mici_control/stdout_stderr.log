@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[100%] Built target my_node
+-- Install configuration: ""
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/lib/mici_control/my_node
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/package_run_dependencies/mici_control
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/parent_prefix_path/mici_control
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/environment/path.sh
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/environment/path.dsv
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.bash
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.sh
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.zsh
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/local_setup.dsv
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/package.dsv
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/ament_index/resource_index/packages/mici_control
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/cmake/mici_controlConfig.cmake
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/cmake/mici_controlConfig-version.cmake
+-- Up-to-date: /home/workspace/mici_ws/install/mici_control/share/mici_control/package.xml

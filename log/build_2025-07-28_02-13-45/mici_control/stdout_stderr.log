@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[31mCMake Error at CMakeLists.txt:15 (target_include_directories):
+  target_include_directories called with invalid arguments
+
+[0m
+[31mCMake Error at CMakeLists.txt:19 (target_compile_features):
+  target_compile_features specified unknown feature "c_std" for target
+  "my_node".
+
+[0m
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring incomplete, errors occurred!
+See also "/home/workspace/mici_ws/build/mici_control/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

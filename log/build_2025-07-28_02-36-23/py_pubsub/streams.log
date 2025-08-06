@@ -1,0 +1,39 @@
+[0.540s] Invoking command in '/home/workspace/mici_ws/src/py_pubsub': PYTHONPATH=/home/workspace/mici_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/workspace/mici_ws/build/py_pubsub/build install --record /home/workspace/mici_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.690s] running egg_info
+[0.690s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.690s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.690s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.690s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.690s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.690s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.691s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.691s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.692s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.692s] running build
+[0.692s] running build_py
+[0.692s] creating /home/workspace/mici_ws/build/py_pubsub/build
+[0.692s] creating /home/workspace/mici_ws/build/py_pubsub/build/lib
+[0.692s] creating /home/workspace/mici_ws/build/py_pubsub/build/lib/py_pubsub
+[0.692s] copying py_pubsub/__init__.py -> /home/workspace/mici_ws/build/py_pubsub/build/lib/py_pubsub
+[0.692s] copying py_pubsub/publisher_member.py -> /home/workspace/mici_ws/build/py_pubsub/build/lib/py_pubsub
+[0.692s] copying py_pubsub/subscriber_member.py -> /home/workspace/mici_ws/build/py_pubsub/build/lib/py_pubsub
+[0.692s] running install
+[0.692s] running install_lib
+[0.693s] creating /home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.693s] copying /home/workspace/mici_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.693s] copying /home/workspace/mici_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member.py -> /home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.693s] copying /home/workspace/mici_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member.py -> /home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.693s] byte-compiling /home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.693s] byte-compiling /home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member.py to publisher_member.cpython-310.pyc
+[0.693s] byte-compiling /home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member.py to subscriber_member.cpython-310.pyc
+[0.693s] running install_data
+[0.693s] creating /home/workspace/mici_ws/install/py_pubsub/share/ament_index
+[0.693s] creating /home/workspace/mici_ws/install/py_pubsub/share/ament_index/resource_index
+[0.693s] creating /home/workspace/mici_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.694s] copying resource/py_pubsub -> /home/workspace/mici_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.694s] copying package.xml -> /home/workspace/mici_ws/install/py_pubsub/share/py_pubsub
+[0.694s] running install_egg_info
+[0.695s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.695s] running install_scripts
+[0.707s] writing list of installed files to '/home/workspace/mici_ws/build/py_pubsub/install.log'
+[0.724s] Invoked command in '/home/workspace/mici_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/workspace/mici_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/workspace/mici_ws/build/py_pubsub/build install --record /home/workspace/mici_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

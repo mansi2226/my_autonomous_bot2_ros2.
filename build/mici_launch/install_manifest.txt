@@ -1,0 +1,15 @@
+/home/workspace/mici_ws/install/mici_launch/share/ament_index/resource_index/package_run_dependencies/mici_launch
+/home/workspace/mici_ws/install/mici_launch/share/ament_index/resource_index/parent_prefix_path/mici_launch
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/environment/ament_prefix_path.sh
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/environment/ament_prefix_path.dsv
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/environment/path.sh
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/environment/path.dsv
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/local_setup.bash
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/local_setup.sh
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/local_setup.zsh
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/local_setup.dsv
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.dsv
+/home/workspace/mici_ws/install/mici_launch/share/ament_index/resource_index/packages/mici_launch
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/cmake/mici_launchConfig.cmake
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/cmake/mici_launchConfig-version.cmake
+/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.xml

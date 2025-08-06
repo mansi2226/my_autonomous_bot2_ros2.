@@ -1,0 +1,3 @@
+[console_scripts]
+minimal_parameter_node = py_parameter.param_member:main
+

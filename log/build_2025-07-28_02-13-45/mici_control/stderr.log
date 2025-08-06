@@ -1,0 +1,10 @@
+[31mCMake Error at CMakeLists.txt:15 (target_include_directories):
+  target_include_directories called with invalid arguments
+
+[0m
+[31mCMake Error at CMakeLists.txt:19 (target_compile_features):
+  target_compile_features specified unknown feature "c_std" for target
+  "my_node".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

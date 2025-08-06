@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/workspace/pico_ws/install/whycon/include/**",
+        "/home/workspace/pico_ws/install/swift_msgs/include/**",
+        "/home/workspace/pico_ws/install/rotors_control/include/**",
+        "/home/workspace/pico_ws/install/pid_msg/include/**",
+        "/home/workspace/pico_ws/install/mav_system_msgs/include/**",
+        "/home/workspace/pico_ws/install/mav_state_machine_msgs/include/**",
+        "/home/workspace/pico_ws/install/mav_planning_msgs/include/**",
+        "/home/workspace/pico_ws/install/mav_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/workspace/mici_ws/src/mici_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

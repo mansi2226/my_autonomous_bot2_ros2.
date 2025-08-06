@@ -1,0 +1,48 @@
+[0.038s] Invoking command in '/home/workspace/mici_ws/build/mici_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_description -- -j12 -l12
+[0.649s] [100%] Built target my_node
+[0.659s] Invoked command in '/home/workspace/mici_ws/build/mici_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_description -- -j12 -l12
+[0.660s] Invoking command in '/home/workspace/mici_ws/build/mici_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_description
+[0.861s] -- Install configuration: ""
+[0.861s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/launch
+[0.861s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/launch/mici.launch.py
+[0.861s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/urdf
+[0.862s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/urdf/mici.urdf.xacro
+[0.862s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/urdf/urdf2.urdf.
+[0.862s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes
+[0.862s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/wheels
+[0.862s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/wheels/left_tire.stl
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/wheels/right_tire.stl
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/bases
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/bases/waffle_base.stl
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/bases/waffle_pi_base.stl
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/bases/burger_base.stl
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/sensors
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/sensors/r200.jpg
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/sensors/astra.dae
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/sensors/astra.jpg
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/sensors/lds.stl
+[0.863s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/sensors/r200.dae
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/burger_base.stl
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/meshes/mici.sdf
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/model
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/model/model.sdf
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/rviz
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/world
+[0.864s] -- Installing: /home/workspace/mici_ws/install/mici_description/share/mici_description/world/mici.world
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/lib/mici_description/my_node
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/ament_index/resource_index/package_run_dependencies/mici_description
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/ament_index/resource_index/parent_prefix_path/mici_description
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/environment/ament_prefix_path.sh
+[0.864s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/environment/ament_prefix_path.dsv
+[0.865s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/environment/path.sh
+[0.865s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/environment/path.dsv
+[0.865s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/local_setup.bash
+[0.865s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/local_setup.sh
+[0.865s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/local_setup.zsh
+[0.865s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/local_setup.dsv
+[0.865s] -- Installing: /home/workspace/mici_ws/install/mici_description/share/mici_description/package.dsv
+[0.866s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/ament_index/resource_index/packages/mici_description
+[0.866s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/cmake/mici_descriptionConfig.cmake
+[0.866s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/cmake/mici_descriptionConfig-version.cmake
+[0.866s] -- Up-to-date: /home/workspace/mici_ws/install/mici_description/share/mici_description/package.xml
+[0.881s] Invoked command in '/home/workspace/mici_ws/build/mici_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_description

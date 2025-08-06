@@ -1,0 +1,10 @@
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/uninstall.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/mici_control_uninstall.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/my_node.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/test.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/edit_cache.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/rebuild_cache.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/list_install_components.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/install.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/install/local.dir
+/home/workspace/mici_ws/build/mici_control/CMakeFiles/install/strip.dir

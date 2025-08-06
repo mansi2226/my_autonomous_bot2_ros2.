@@ -1,0 +1,499 @@
+[0.062s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.062s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70cfb555f910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70cfb56a4d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70cfb56a4d90>>)
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.171s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.171s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/workspace/mici_ws'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_control) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mici_control' with type 'ros.ament_cmake' and name 'mici_control'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_description) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mici_description' with type 'ros.ament_cmake' and name 'mici_description'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/mici_launch) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mici_launch' with type 'ros.ament_cmake' and name 'mici_launch'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_launch_exam) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_launch_exam' with type 'ros.ament_python' and name 'py_launch_exam'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_parameter) by extension 'ros'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_parameter' with type 'ros.ament_python' and name 'py_parameter'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/workspace/mici_ws/install
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/workspace/turtlebot3_ws/install
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/workspace/simulation_ws/install
+[0.202s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/workspace/pico_ws/install
+[0.202s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/workspace/ros_ws/install
+[0.203s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 413 installed packages in /opt/ros/humble
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'cmake_args' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'cmake_target' from command line to 'None'
+[0.234s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'mici_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/workspace/mici_ws/build/mici_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/workspace/mici_ws/install/mici_control', 'merge_install': False, 'path': '/home/workspace/mici_ws/src/mici_control', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'mici_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/workspace/mici_ws/build/mici_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/workspace/mici_ws/install/mici_description', 'merge_install': False, 'path': '/home/workspace/mici_ws/src/mici_description', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'cmake_target' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'mici_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.235s] DEBUG:colcon.colcon_core.verb:Building package 'mici_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/workspace/mici_ws/build/mici_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/workspace/mici_ws/install/mici_launch', 'merge_install': False, 'path': '/home/workspace/mici_ws/src/mici_launch', 'symlink_install': False, 'test_result_base': None}
+[0.235s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_launch_exam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'py_launch_exam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/workspace/mici_ws/build/py_launch_exam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/workspace/mici_ws/install/py_launch_exam', 'merge_install': False, 'path': '/home/workspace/mici_ws/src/py_launch_exam', 'symlink_install': False, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_parameter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'py_parameter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/workspace/mici_ws/build/py_parameter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/workspace/mici_ws/install/py_parameter', 'merge_install': False, 'path': '/home/workspace/mici_ws/src/py_parameter', 'symlink_install': False, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.236s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/workspace/mici_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/workspace/mici_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/workspace/mici_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_args' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target' from command line to 'None'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.236s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'py_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'py_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/workspace/mici_ws/build/py_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/workspace/mici_ws/install/py_srvcli', 'merge_install': False, 'path': '/home/workspace/mici_ws/src/py_srvcli', 'symlink_install': False, 'test_result_base': None}
+[0.237s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/workspace/mici_ws/src/mici_control' with build type 'ament_cmake'
+[0.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/workspace/mici_ws/src/mici_control'
+[0.239s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/workspace/mici_ws/src/mici_description' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/workspace/mici_ws/src/mici_description'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/workspace/mici_ws/src/mici_launch' with build type 'ament_cmake'
+[0.247s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/workspace/mici_ws/src/mici_launch'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/workspace/mici_ws/src/py_launch_exam' with build type 'ament_python'
+[0.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch_exam', 'ament_prefix_path')
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/hook/ament_prefix_path.ps1'
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/hook/ament_prefix_path.dsv'
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/hook/ament_prefix_path.sh'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/workspace/mici_ws/src/py_parameter' with build type 'ament_python'
+[0.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_parameter', 'ament_prefix_path')
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/hook/ament_prefix_path.sh'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/workspace/mici_ws/src/py_pubsub' with build type 'ament_python'
+[0.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[0.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/workspace/mici_ws/src/py_srvcli' with build type 'ament_python'
+[0.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/build/mici_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_control -- -j12 -l12
+[0.278s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/build/mici_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_description -- -j12 -l12
+[0.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/build/mici_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_launch -- -j12 -l12
+[0.488s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/workspace/mici_ws/src/py_launch_exam'
+[0.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.687s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/workspace/mici_ws/src/py_parameter'
+[0.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.874s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/workspace/mici_ws/src/py_pubsub'
+[0.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/build/mici_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_control -- -j12 -l12
+[0.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/build/mici_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_control
+[0.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/build/mici_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_launch -- -j12 -l12
+[0.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/build/mici_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_launch
+[0.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/build/mici_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/workspace/mici_ws/build/mici_description -- -j12 -l12
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/build/mici_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_description
+[1.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/workspace/mici_ws/src/py_srvcli'
+[1.080s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mici_control)
+[1.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/build/mici_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_control
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control' for CMake module files
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control' for CMake config files
+[1.097s] Level 1:colcon.colcon_core.shell:create_environment_hook('mici_control', 'cmake_prefix_path')
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_control/share/mici_control/hook/cmake_prefix_path.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/mici_control/share/mici_control/hook/cmake_prefix_path.dsv'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_control/share/mici_control/hook/cmake_prefix_path.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/lib'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/bin'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/lib/pkgconfig/mici_control.pc'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/lib/python3.10/site-packages'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/bin'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.ps1'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.sh'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.bash'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.zsh'
+[1.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/mici_control/share/colcon-core/packages/mici_control)
+[1.105s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mici_control)
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control' for CMake module files
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control' for CMake config files
+[1.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('mici_control', 'cmake_prefix_path')
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_control/share/mici_control/hook/cmake_prefix_path.ps1'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/mici_control/share/mici_control/hook/cmake_prefix_path.dsv'
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_control/share/mici_control/hook/cmake_prefix_path.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/lib'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/bin'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/lib/pkgconfig/mici_control.pc'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/lib/python3.10/site-packages'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_control/bin'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.sh'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.bash'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_control/share/mici_control/package.zsh'
+[1.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/mici_control/share/colcon-core/packages/mici_control)
+[1.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mici_launch)
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch' for CMake module files
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch' for CMake config files
+[1.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/build/mici_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_launch
+[1.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('mici_launch', 'cmake_prefix_path')
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/hook/cmake_prefix_path.ps1'
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/hook/cmake_prefix_path.dsv'
+[1.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/hook/cmake_prefix_path.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch/bin'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch/lib/pkgconfig/mici_launch.pc'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch/lib/python3.10/site-packages'
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch/bin'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.ps1'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.dsv'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.sh'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.bash'
+[1.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.zsh'
+[1.116s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/mici_launch/share/colcon-core/packages/mici_launch)
+[1.117s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mici_launch)
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch' for CMake module files
+[1.118s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch' for CMake config files
+[1.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('mici_launch', 'cmake_prefix_path')
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/hook/cmake_prefix_path.ps1'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/hook/cmake_prefix_path.dsv'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/hook/cmake_prefix_path.sh'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch/bin'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch/lib/pkgconfig/mici_launch.pc'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch/lib/python3.10/site-packages'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_launch/bin'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.ps1'
+[1.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.dsv'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.sh'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.bash'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_launch/share/mici_launch/package.zsh'
+[1.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/mici_launch/share/colcon-core/packages/mici_launch)
+[1.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mici_description)
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description' for CMake module files
+[1.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/build/mici_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/workspace/mici_ws/install/py_srvcli:/home/workspace/mici_ws/install/py_pubsub:/home/workspace/mici_ws/install/py_parameter:/home/workspace/mici_ws/install/py_launch_exam:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/workspace/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/workspace/ros_ws/install/turtlebot3_description:/home/workspace/ros_ws/install/navigation_m:/home/workspace/ros_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/workspace/mici_ws/build/mici_description
+[1.127s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description' for CMake config files
+[1.128s] Level 1:colcon.colcon_core.shell:create_environment_hook('mici_description', 'cmake_prefix_path')
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_description/share/mici_description/hook/cmake_prefix_path.ps1'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/mici_description/share/mici_description/hook/cmake_prefix_path.dsv'
+[1.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_description/share/mici_description/hook/cmake_prefix_path.sh'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/lib'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/bin'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/lib/pkgconfig/mici_description.pc'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/lib/python3.10/site-packages'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/bin'
+[1.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.sh'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.bash'
+[1.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.zsh'
+[1.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/mici_description/share/colcon-core/packages/mici_description)
+[1.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mici_description)
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description' for CMake module files
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description' for CMake config files
+[1.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('mici_description', 'cmake_prefix_path')
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_description/share/mici_description/hook/cmake_prefix_path.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/mici_description/share/mici_description/hook/cmake_prefix_path.dsv'
+[1.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/mici_description/share/mici_description/hook/cmake_prefix_path.sh'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/lib'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/bin'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/lib/pkgconfig/mici_description.pc'
+[1.139s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/lib/python3.10/site-packages'
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/mici_description/bin'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.ps1'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.sh'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.bash'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/mici_description/share/mici_description/package.zsh'
+[1.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/mici_description/share/colcon-core/packages/mici_description)
+[1.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/src/py_parameter': PYTHONPATH=/home/workspace/mici_ws/build/py_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_parameter build --build-base /home/workspace/mici_ws/build/py_parameter/build install --record /home/workspace/mici_ws/build/py_parameter/install.log --single-version-externally-managed install_data
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/src/py_pubsub': PYTHONPATH=/home/workspace/mici_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/workspace/mici_ws/build/py_pubsub/build install --record /home/workspace/mici_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/src/py_launch_exam': PYTHONPATH=/home/workspace/mici_ws/build/py_launch_exam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_launch_exam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_exam build --build-base /home/workspace/mici_ws/build/py_launch_exam/build install --record /home/workspace/mici_ws/build/py_launch_exam/install.log --single-version-externally-managed install_data
+[1.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/workspace/mici_ws/src/py_srvcli': PYTHONPATH=/home/workspace/mici_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/workspace/mici_ws/build/py_srvcli/build install --record /home/workspace/mici_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_parameter' for CMake module files
+[1.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/src/py_parameter' returned '0': PYTHONPATH=/home/workspace/mici_ws/build/py_parameter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_parameter build --build-base /home/workspace/mici_ws/build/py_parameter/build install --record /home/workspace/mici_ws/build/py_parameter/install.log --single-version-externally-managed install_data
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_parameter' for CMake config files
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_parameter/lib'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_parameter/bin'
+[1.766s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_parameter/lib/pkgconfig/py_parameter.pc'
+[1.767s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_parameter/lib/python3.10/site-packages'
+[1.767s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_parameter', 'pythonpath')
+[1.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/hook/pythonpath.ps1'
+[1.768s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/hook/pythonpath.dsv'
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/hook/pythonpath.sh'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_parameter/bin'
+[1.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_parameter)
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/package.ps1'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/package.dsv'
+[1.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/package.sh'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/package.bash'
+[1.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_parameter/share/py_parameter/package.zsh'
+[1.774s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/py_parameter/share/colcon-core/packages/py_parameter)
+[1.788s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_pubsub' for CMake module files
+[1.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/workspace/mici_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/workspace/mici_ws/build/py_pubsub/build install --record /home/workspace/mici_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.789s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_pubsub' for CMake config files
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_pubsub/lib'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_pubsub/bin'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_pubsub/lib/python3.10/site-packages'
+[1.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[1.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_pubsub/bin'
+[1.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[1.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[1.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[1.982s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_launch_exam' for CMake module files
+[1.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/src/py_launch_exam' returned '0': PYTHONPATH=/home/workspace/mici_ws/build/py_launch_exam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_launch_exam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_launch_exam build --build-base /home/workspace/mici_ws/build/py_launch_exam/build install --record /home/workspace/mici_ws/build/py_launch_exam/install.log --single-version-externally-managed install_data
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_launch_exam' for CMake config files
+[1.983s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_launch_exam/lib'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_launch_exam/bin'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_launch_exam/lib/pkgconfig/py_launch_exam.pc'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_launch_exam/lib/python3.10/site-packages'
+[1.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_launch_exam', 'pythonpath')
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/hook/pythonpath.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/hook/pythonpath.dsv'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/hook/pythonpath.sh'
+[1.986s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_launch_exam/bin'
+[1.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_launch_exam)
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/package.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/package.dsv'
+[1.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/package.sh'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/package.bash'
+[1.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_launch_exam/share/py_launch_exam/package.zsh'
+[1.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/py_launch_exam/share/colcon-core/packages/py_launch_exam)
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_srvcli' for CMake module files
+[2.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/workspace/mici_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/workspace/mici_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/workspace/mici_ws/build/py_srvcli/build install --record /home/workspace/mici_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[2.000s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_srvcli' for CMake config files
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_srvcli/lib'
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_srvcli/bin'
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_srvcli/lib/pkgconfig/py_srvcli.pc'
+[2.001s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_srvcli/lib/python3.10/site-packages'
+[2.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_srvcli', 'pythonpath')
+[2.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.ps1'
+[2.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.dsv'
+[2.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/hook/pythonpath.sh'
+[2.002s] Level 1:colcon.colcon_core.environment:checking '/home/workspace/mici_ws/install/py_srvcli/bin'
+[2.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_srvcli)
+[2.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/package.ps1'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/package.dsv'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/package.sh'
+[2.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/package.bash'
+[2.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/workspace/mici_ws/install/py_srvcli/share/py_srvcli/package.zsh'
+[2.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/workspace/mici_ws/install/py_srvcli/share/colcon-core/packages/py_srvcli)
+[2.004s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.004s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.005s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.005s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.009s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.020s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.020s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/workspace/mici_ws/install/local_setup.ps1'
+[2.021s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/workspace/mici_ws/install/_local_setup_util_ps1.py'
+[2.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/workspace/mici_ws/install/setup.ps1'
+[2.023s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/workspace/mici_ws/install/local_setup.sh'
+[2.024s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/workspace/mici_ws/install/_local_setup_util_sh.py'
+[2.024s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/workspace/mici_ws/install/setup.sh'
+[2.026s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/workspace/mici_ws/install/local_setup.bash'
+[2.026s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/workspace/mici_ws/install/setup.bash'
+[2.027s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/workspace/mici_ws/install/local_setup.zsh'
+[2.028s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/workspace/mici_ws/install/setup.zsh'
